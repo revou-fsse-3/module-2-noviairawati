@@ -55,9 +55,43 @@ html::-webkit-scrollbar-thumb {
 /* Tag Body */
 body {
     background: var(--bg);
-    padding: 25px;
     color: #0174BE;
+    padding: 25px;
     font-size: 25px;
+}
+
+/* Dark */
+
+body.dark {
+    background-color: #0174BE;
+}
+
+.toggle {
+    position: relative;
+    height: 5rem;
+    width: 12rem;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 .5rem .8rem red;
+    cursor: pointer;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #4070f4;
+    border-radius: 50%;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle.active::before {
+    background-color: #18191a;
+    left: calc(100% - 110px - 14px);
 }
 
 /* Tag section */
@@ -192,9 +226,7 @@ header .search-form label:hover {
 /* For connect to JS*/
 header .search-form.active {
     transform: scaleY(1);
-
 }
-
 
 /* cart-items */
 header .cart-items-container {
@@ -253,6 +285,69 @@ header .cart-items-container .btn {
 header .cart-items-container.active {
     right: 0;
 }
+
+
+/* Carousel */
+.image-slider {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black);
+}
+
+.slider {
+    max-width: 80rem;
+    width: 100%;
+    height: 50rem;
+    border: .5rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.image-box {
+    display: flex;
+    height: 100%;
+    width: 400%;
+    justify-content: space-between;
+}
+
+.image-box {
+    animation: imgBox 15s linear infinite;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes imgBox {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.image-box:hover {
+    animation-play-state: paused;
+}
+
+.image-box .image {
+    width: calc(100% - 100px);
+    height: 100%;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 
 /* Home : content */
@@ -748,119 +843,12 @@ main .membership .row form .inputBox input {
     background: none;
 }
 
-/* Carousel */
-main .carousel .image-carousel {
-    margin: 0;
-    padding: 0;
-    width: 110rem;
-    height: 60rem;
-    top: 50%;
-    left: 50%;
-    transform: -50% -50%;
-    overflow: hidden;
-}
 
-main .carousel .image-carousel .slides {
-    width: 500%;
-    height: 100%;
-    display: flex;
-}
-
-main .carousel .image-carousel .slides .slide {
-    width: 20%;
-}
-
-main .carousel .image-carousel .slides img {
-    width: 100%;
-    height: 100%;
-    transition: 2s;
-}
-
-/* Navigation*/
-.navigation {
-    position: absolute;
-    top: 93%;
-    left: 50%;
-    transform: -50% -50%;
-}
-
-.navigation .bar {
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
-    border: 1px solid white;
-    margin: 16px;
-    cursor: pointer;
-}
-
-.navigation .bar:hover {
-    background: white;
-    transition: 0.5s;
-}
-
-/* Image Transfer*/
-input#image-2:checked ~.slides .slide img {
-    margin-left: -100%;
-}
-
-input#image-3:checked ~.slides .slide img {
-    margin-left: -200%;
-}
-
-input#image-4:checked ~.slides .slide img {
-    margin-left: -300%;
-}
-
-input#image-5:checked ~.slides .slide img {
-    margin-left: -400%;
-}
-
-
-
-input {
-    visibility: hidden;
-}
-
-    input#image-1:checked ~ .navigation #bar-1 {
-        background: white;
-}
-
-input#image-2:checked ~ .navigation #bar-2 {
-    background: white;
-}
-
-input#image-3:checked ~ .navigation #bar-3 {
-    background: white;
-}
-
-input#image-4:checked ~ .navigation #bar-4 {
-        background: white;
-}
-
-input#image-5:checked ~ .navigation #bar-5 {
-    background: white;
-}
 
 /* Footer: share-links-credit*/
 footer {
     background: var(--black);
     text-align: center;
-}
-
-.switch {
-    position: fixed;
-    bottom: 5rem;
-    right: 5rem;
-    padding: 1rem 3rem;
-    border-radius: 1.5rem;
-}
-
-.darkmode {
-    color: #0174BE;
-    background: var(--bg);
-}
-
-.darkmode button {
-    background: burlywood;
 }
 
 footer .share {
@@ -877,6 +865,9 @@ footer .share a {
     margin: .3rem;
     border-radius: 50%;
 }
+
+
+
 
 /* Change the color of links on hover */
 footer .share a:hover {
@@ -1007,5 +998,6 @@ footer .credit span {
     .gallery .container .img img {
         grid-template-columns: repeat(2, 1fr);
         filter: brightness(1) grayscale(0);
+        -webkit-filter: brightness(1) grayscale(0);
     }
 }
