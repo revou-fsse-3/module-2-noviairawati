@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Store</title>
+
+    <!-- font awesome cdn link for Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+        <a href="#" class="logo">
+            <img src="IMG/logo.jpg" alt="logo"></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+            <a href="#gallery">gallery</a>
+            <a href="#membership">membership</a>
+            
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/cart-item-1.jpg" alt="Arabica">
+                <div class="content">
+                    <h3>Arabica</h3>
+                    <div class="price">$15.90/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/cart-item-2.jpg" alt="Robusta">
+                <div class="content">
+                    <h3>Robusta</h3>
+                    <div class="price">$13.90/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/cart-item-3.jpg" alt="Liberica">
+                <div class="content">
+                    <h3>Liberica</h3>
+                    <div class="price">$18.90/-</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/cart-item-4.jpg" alt="Excelsa">
+                <div class="content">
+                    <h3>Excelsa</h3>
+                    <div class="price">$20.90/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">check out now</a>
+        </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- Main section starts -->
+<!-- Image Carousal section Starts -->
+<main>
+ <!-- home section starts -->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Start Your Day With Coffee</h3>
+            <p>Everything gets better with coffee! Going to work, working, not working, reading a book, walking a dog, drawing. Coffee even turns doing nothing into pure poetry
+                And moreover, there is nothing like a cup of coffee to warm up your soul and start your day right! It is indeed a cup of Heaven! </p>
+            <a href="#" class="btn">Get Yours Now</a>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <section class="carousel" id="carousel">
+        <div class="image-carousel">
+        <input type="radio" name="radio" id="image-1">
+        <input type="radio" name="radio" id="image-2" checked>
+        <input type="radio" name="radio" id="image-3">
+        <input type="radio" name="radio" id="image-4">
+        <input type="radio" name="radio" id="image-5">
+        
+        <div class="slides">
+        <div class="slide">
+        <img src="IMG/member1.jpg" alt="">
+        </div>
+        
+        <div class="slide">
+        <img src="IMG/member2.jpg" alt="">
+        </div>
+        
+        <div class="slide">
+        <img src="IMG/member3.webp" alt="">
+        </div>
+        
+        <div class="slide">
+        <img src="IMG/member4.png" alt="">
+        </div>
+        
+        <div class="slide">
+            <img src="IMG/member5.avif" alt="">
+            </div>
+        
+        <div class="navigation">
+        <label for="image-1" id="bar-1" class="bar"></label>
+        <label for="image-2" id="bar-2" class="bar"></label>
+        <label for="image-3" id="bar-3" class="bar"></label>
+        <label for="image-4" id="bar-4" class="bar"></label>
+        <label for="image-5" id="bar-5" class="bar"></label>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+        </section>
+
+<!-- Image Carousal section Ends -->
+
+        <!-- about section start -->
+        <section class="about" id="about">
+            <h1 class="heading"><span>About </span>Us</h1>
+            <div class="row">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="IMG/aboutus1.avif" alt="srcset1">
+                    <source media="(min-width: 861px)" srcset="img/aboutus2.jpg" alt="srcset2">
+                    <source media="(min-width: 481px)" srcset="IMG/aboutus3.jpg" alt="srcset3">
+                    <img src="IMG/coffee.jpg" alt="About Us Gambar">
+                </picture>
+
+                <div class="content">
+                    <h3>What Makes Our Coffee Special?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, eveniet maxime. Soluta
+                        explicabo
+                        dolorum
+                        ut ea labore voluptate eligendi voluptatem rem. Quasi minus omnis adipisci fugiat, aliquam
+                        vitae
+                        nihil
+                        cum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, praesentium quas? Quas
+                        exercitationem
+                        ab sit illo. Blanditiis quibusdam accusamus, ullam dolores sit repellendus ea illo, impedit
+                        odio
+                        rerum,
+                        nobis repellat?</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- end about section ends -->
+
+        <!-- menu section start -->
+        <section class="menu" id="menu">
+            <h1 class="heading">Our <span>Menu</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="IMG/menu1.jpg" alt="World Coffee">
+                    <h3>World Coffee</h3>
+                    <div class="price">$12.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+
+                <div class="box">
+                    <img src="IMG/menu2.jpg" alt="Banana Coffee">
+                    <h3>Banana Coffee</h3>
+                    <div class="price">$13.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+
+
+                <div class="box">
+                    <img src="IMG/menu3.jpg" alt="Arigatou Coffee">
+                    <h3>Arigatou Coffee</h3>
+                    <div class="price">$14.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+
+                <div class="box">
+                    <img src="IMG/menu4.jpeg" alt="Mountain Coffee">
+                    <h3>Mountain Coffee</h3>
+                    <div class="price">$15.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+
+                <div class="box">
+                    <img src="IMG/menu5.jpg" alt="coffee2">
+                    <h3>Sweet Coffee</h3>
+                    <div class="price">$16.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+
+                <div class="box">
+                    <img src="IMG/menu6.jpg" alt="coffee2">
+                    <h3>Crazy Coffee</h3>
+                    <div class="price">$17.90 <span>20.99</span></div>
+                    <a href="#" class="btn">Add to Chart</a>
+                </div>
+            </div>
+        </section>
+        <!-- menu section ends -->
+
+        <!-- Products section starts -->
+        <div class="products" id="products">
+            <h1 class="heading">Best <span>Products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="IMG/product1.jpg" alt="BlackBeard's" width="200" height="300">
+                    </div>
+                    <div class="content">
+                        <h3>BlackBeard's</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$16.00 <span>$19.99</span></div>
+
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="IMG/product2.jpg" alt="Mexican" width="200" height="300">
+                    </div>
+
+                    <div class="content">
+                        <h3>Mexican</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$17.00 <span>$19.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="IMG/product3.jpg" alt="Costa Rican" width="200" height="300">
+                    </div>
+                    <div class="content">
+                        <h3>Costa Rican</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$18.00 <span>$19.99</span></div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- Products section ends -->
+<!-- review section starts -->
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span>Testimony</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="IMG/quote.jpg" alt="quote" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium ipsa
+                alias.
+                Neque
+                beatae voluptates aliquam in sit a quod voluptatum debitis modi dolores laboriosam nobis
+                eligendi,
+                animi vel perferendis!</p>
+            <img src="IMG/picture1.jpg" alt="Agnes Monica" class="user">
+            <h3>Agnes Monica</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="IMG/quote.jpg" alt="quote" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium ipsa
+                alias.
+                Neque
+                beatae voluptates aliquam in sit a quod voluptatum debitis modi dolores laboriosam nobis
+                eligendi,
+                animi vel perferendis!</p>
+            <img src="IMG/picture2.png" alt="Randy Pangalila" class="user">
+            <h3>Randy Pangalila</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="IMG/quote.jpg" alt="quote" class="quote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium ipsa
+                alias.
+                Neque
+                beatae voluptates aliquam in sit a quod voluptatum debitis modi dolores laboriosam nobis
+                eligendi,
+                animi vel perferendis!</p>
+            <img src="IMG/picture3.jpeg" alt="Raditya Dika" class="user">
+            <h3>Raditya Dika</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- review section ends -->
+
+            <!-- contact section starts -->
+            <section class="contact" id="contact">
+                <h1 class="heading"><span>contact </span>us</h1>
+                <div class="row">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.3749706021!2d106.64771094335939!3d-6.249831400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ed803c2de1%3A0x540effb397627462!2sKopi%20Kenangan%20x%20Chigo%20Ruko%20Radio%20Dalam!5e0!3m2!1sen!2sid!4v1698252496363!5m2!1sen!2sid"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form action="">
+                        <h3>get in touch</h3>
+                        <div class="inputBox">
+                            <span class="fas fa-user"></span>
+                            <input type="text" placeholder="name" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-envelope"></span>
+                            <input type="email" placeholder="email" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-phone"></span>
+                            <input type="number" placeholder="number" required>
+                        </div>
+                        <input type="submit" value="contact now" class="btn">
+                    </form>
+                </div>
+            </section>
+            <!-- contact section ends -->
+
+            <!-- blogs section starts -->
+            <section class="blogs" id="blogs">
+                <h1 class="heading">Our <span>Blogs</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img src="IMG/blog1.jpg" alt="Blog1">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">Making Coffee at Home</a>
+                            <span>by Ratnasari / 26st october, 2020</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus ratione, officia
+                                esse
+                                voluptatibus expedita dolores? Earum odio porro, libero molestiae et, molestias adipisci
+                                minus
+                                necessitatibus quod architecto ducimus reprehenderit?</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="IMG/blog2.jpg" alt="Blog2">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">Coffee Time Ideas</a>
+                            <span>by Eva Dwi Ningsih / 26st october, 2021</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus ratione, officia
+                                esse
+                                voluptatibus expedita dolores? Earum odio porro, libero molestiae et, molestias adipisci
+                                minus
+                                necessitatibus quod architecto ducimus reprehenderit?</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="IMG/blog3.jpg" alt="Blog3">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">Coffee in the Morning</a>
+                            <span>by Agung Prazz / 26st october, 2023</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus ratione, officia
+                                esse
+                                voluptatibus expedita dolores? Earum odio porro, libero molestiae et, molestias adipisci
+                                minus
+                                necessitatibus quod architecto ducimus reprehenderit?</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- blogs section ends -->
+
+            <!-- Grid Gallery section starts -->
+            <section class="gallery" id="gallery">
+                <h1 class="heading">Gallery <span> Coffee</span></h1>
+                <div class="container">
+                    <div class="img">
+                        <img src="IMG/galery1.jpg" alt="Galery1">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery2.jpg" alt="Galery2">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery3.jpg" alt="Galery3">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery4.jpg" alt="Galery4">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery5.jpg" alt="Galery5">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery6.jpg" alt="Galery6">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery7.jpg" alt="Galery7">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery8.jpg" alt="Galery8">
+                    </div>
+
+                    <div class="img">
+                        <img src="IMG/galery9.jpg" alt="Galery9">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery10.jpg" alt="Galery10">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery11.jpg" alt="Galery11">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery12.png" alt="Galery12">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery13.jpg" alt="Galery13">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery14.jpg" alt="Galery14">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery15.jpeg" alt="Galery15">
+                    </div>
+
+
+                    <div class="img">
+                        <img src="IMG/galery16.jpg" alt="Galery16">
+                    </div>
+
+                </div>
+            </section>
+            <!-- Grid Galery section ends -->
+
+            <!-- Register Form section starts -->
+            <section class="membership" id="membership">
+                <h1 class="heading"><span>Be </span>Our Member</h1>
+                <div class="row">
+                    <form action="">
+                        <h3>Register as a Membership</h3>
+                        <div class="inputBox">
+                            <span class="fas fa-user"></span>
+                            <input type="text" placeholder="name" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-envelope"></span>
+                            <input type="email" placeholder="email" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-phone"></span>
+                            <input type="number" placeholder="number" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="Date of Birth">
+                                <h5>Date of Birth : </h5>
+                            </span>
+                            <input type="date" id="birthdaytime" name="birthdaytime" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="gender">
+                                <h5>Gender : </h5>
+                            </span>
+                            <input type="radio" name="gender" value="Male">
+                            <h5>Male</h5>
+                            <input type="radio" name="gender" value="Female">
+                            <h5>Female</h5>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="Option">
+                                <h5>What Time Of Day Do You Usually Drink Coffee? : </h5>
+                            </span>
+                            <select name="Option">
+                                <option value="Inthemorning">In the Morning</option>
+                                <option value="Intheevening">In the Evening</option>
+                                <option value="Inthenight">In the Night</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="checkbox">
+                                <h5>Term and Condition : </h5>
+                            </span>
+                            <input type="checkbox" name="agree" value="Agree" checked>
+                            <h5>I have Read User Agreement</h5><br>
+                            <input type="checkbox" name="agree" value="Agree" checked>
+                            <h5>I Agree to terms and conditions</h5><br>
+                        </div>
+                        <input type="submit" value="Register Now" class="btn">
+                    </form>
+                </div>
+            </section>
+            <!-- Register Form section Ends -->
+
+            
+
+            
+
+
+    </main>
+    <!-- Main section Ends -->
+
+    <!-- footer section starts -->
+    <footer>
+        <span class="switch" onclick="setDarkMode()" id="darkBtn"><i class="fa-sharp fa-solid fa-mug-hot"></i></span>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+            <a href="#gallery">gallery</a>
+            <a href="#membership">membership</a>
+            
+        </div>
+
+        <div class="credit">created by <span>CoffeeStore</span>@me</div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <!--Javascript file link-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
