@@ -102,6 +102,6 @@ Netlify automatically generated a name for your site. Let's update that by visit
 ![14](image-68.png)
 
 8. After that, you may need to wait a few minutes for the settings to propogate, you should eventually see the “Netlify DNS” tag associated with your domain name.
-![Alt text](image-71.png)
-![Alt text](image-72.png)
-![Alt text](image-73.png)
+![15](image-71.png)
+![16](image-72.png)
+![17](image-73.png)
