@@ -3,7 +3,7 @@ I m Applying CSS Grid, Semantic Element, Responsive Website, etc.
 
 Here's my deploy:
 [Coffee Store](coffeestoreproject.netlify.app)
-Here's my website: [noviairawati.site] (noviairawati.site)
+Here's my website: [noviairawati.site](noviairawati.site)
 
 **Now, I want to share how to deploy your project**
 
