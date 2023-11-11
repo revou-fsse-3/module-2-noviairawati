@@ -61,15 +61,14 @@ body {
 }
 
 /* Dark */
-
 body.dark {
     background-color: #0174BE;
 }
 
 .toggle {
     position: relative;
-    height: 5rem;
-    width: 12rem;
+    height: 2rem;
+    width: 7rem;
     border-radius: 100px;
     background-color: #fff;
     box-shadow: 0 .5rem .8rem red;
