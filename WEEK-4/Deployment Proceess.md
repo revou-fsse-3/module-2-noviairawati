@@ -3,13 +3,13 @@ I m Applying CSS Grid, Semantic Element, Responsive Website, etc.
 
 Here's my deploy:
 [Coffee Store](coffeestoreproject.netlify.app)
-Here's my website: (noviairawati.site)
+Here's my website: [noviairawati.site] (noviairawati.site)
 
 **Now, I want to share how to deploy your project**
 
-###Deployment Prosess
+### Deployment Prosess
 
-####Netlify Sign Up Process & Connect Netlify to Github
+#### Netlify Sign Up Process & Connect Netlify to Github
 1. Open "[netlify](https://app.netlify.com/)"
 
 2. Clicking "Sign Up"
@@ -31,7 +31,7 @@ Here's my website: (noviairawati.site)
 
 
 
-####Auto Deployement on Github with Netlify
+#### Auto Deployement on Github with Netlify
 1. Add New Site
 ![1](image-12.png)
 
@@ -72,7 +72,7 @@ Netlify automatically generated a name for your site. Let's update that by visit
 ![18](image-51.png)
 
 
-####How to Connect your Custom Domain
+#### How to Connect your Custom Domain
 1. Inside of the Netlify dashboard, navigate to your domain settings and click “Add Domain Management”
 ![2](image-54.png)
 
