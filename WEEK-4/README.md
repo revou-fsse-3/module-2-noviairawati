@@ -1,9 +1,12 @@
-In this assigment, I make Coffee Store with advance: HTML, CSS and Javascript.
+Hello, I want to share my assigment with theme *"Coffee Store"*
 
-I m Applying CSS Grid, Semantic Element, Responsive Website, etc.
+In this assigment, I make the website with advance: HTML, CSS and Javascript.
+
+I'm applying CSS Grid, Semantic Element, Responsive Website, etc.
 
 Here's my deploy:
 [Coffee Store](coffeestoreproject.netlify.app)
+
 Here's my website: [Coffee Store](noviairawati.site)
 
 # **Now, I Want to Share How to Deploy a Project**
