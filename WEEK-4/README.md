@@ -1,11 +1,12 @@
 In this assigment, I make Coffee Store with advance: HTML, CSS and Javascript.
+
 I m Applying CSS Grid, Semantic Element, Responsive Website, etc.
 
 Here's my deploy:
 [Coffee Store](coffeestoreproject.netlify.app)
 Here's my website: [Coffee Store](noviairawati.site)
 
-**Now, I want to share how to deploy your project**
+# **Now, I Want to Share How to Deploy a Project**
 
 ### Deployment Prosess
 
@@ -84,7 +85,7 @@ Netlify automatically generated a name for your site. Let's update that by visit
 ![4](image-56.png)
 
 4. Follow the steps here by choosing “Verify”, then “Add Domain”, and “Continue”. Then when you get to the screen about domain name servers, copy those name servers.
-![5](image-57.png)
+![5](image)
 ![6](image-58.png)
 ![7](image-59.png)
 
