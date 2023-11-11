@@ -5,11 +5,11 @@ Here's my deploy:
 [Coffee Store](coffeestoreproject.netlify.app)
 Here's my website: [Coffee Store](noviairawati.site)
 
-** Now, I want to share how to deploy your project**
+**Now, I want to share how to deploy your project**
 
-###Deployment Prosess
+### Deployment Prosess
 
-####Netlify Sign Up Process & Connect Netlify to Github
+#### Netlify Sign Up Process & Connect Netlify to Github
 1. Open "[netlify](https://app.netlify.com/)"
 
 2. Clicking "Sign Up"
